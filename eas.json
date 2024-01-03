@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 5.9.3",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "atalwakar719@gmail.com",
+        "ascAppId": "6475178904",
+        "appleTeamId": "7R9J6HAWZS"
+      }
+    }
+  }
+}
